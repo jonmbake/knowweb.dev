@@ -21,7 +21,7 @@ When the blog post page gets rendered, the following HTML is outputted:
 <p>I learned a lot!</p>
 ```
 
-What happens if the blog commentor makes a comment that contains valid HTML? For example:
+What happens if the blog commenter makes a comment that contains valid HTML? For example:
 
 <pre>
 Cool post, man!
@@ -29,7 +29,7 @@ Cool post, man!
 I learned a lot!
 </pre>
 
-If the blog is vunerable to an XSS attack, the comment HTML will be rendered like:
+If the blog is vulnerable to an XSS attack, the comment HTML will be rendered like:
 
 
 ```
@@ -62,4 +62,4 @@ class BlogComment extends React.Component {
 }
 ```
 
-`this.props.userEnteredComment` will be HTML-escaped by default. Interesting side note: React does offer a way to render unescaped HTML via [#dangerouslysetinnerhtml](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml).
+`this.props.userEnteredComment` will be HTML-escaped by default. Side note: React does offer a way to render unescaped HTML via [#dangerouslysetinnerhtml](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml).
