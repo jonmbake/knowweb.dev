@@ -7,7 +7,7 @@ grand_parent: Security
 
 **Web dev concern level:** 3/10 (Less of a concern with the new browser default cookie same-site behavior.)
 
-When logging into a web application, like a bank account, a [HTTP cookie](/posts/index-of-web-dev-terms/#http-cookie) is set. This special type of cookie is often referred to as a session cookie. The HTTP reponse when logging in may look something like:
+When logging into a web application, like a bank account, a [HTTP cookie](/posts/index-of-terms/#http-cookie) is set. This special type of cookie is often referred to as a session cookie. The HTTP response when logging in may look something like:
 
 ```
 POST https://mybank.com/login
