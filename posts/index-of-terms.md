@@ -4,13 +4,17 @@ title: Index of Web Dev Terms
 nav_order: 3
 ---
 
+## Asymmetric Key
+
+Cryptographic key set of a private and public key.
+
 ## Authentication
 
-A user verifies their identity.
+Process of verifying the identity of a user or entity.
 
 ## Authorization
 
-A user has permission to perform an action.
+Process of determining if a user or entity has permission to perform a specific action.
 
 ## Database Breach
 
@@ -31,3 +35,7 @@ A small piece of state data (< 4093 bytes) that a server can set; the data is th
 ## Salt
 
 A bit of extra data appended to a value before being [hashed](#hash), in order to protect against a [dictionary attack](#dictionary-attack).
+
+## Symmetric Key
+
+Cryptographic key used to both encrypt and decrypt data.
