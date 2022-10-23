@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cryptographic Primitives
+title: Authentication/Authorization
 parent: Security
 has_children: true
 ---
